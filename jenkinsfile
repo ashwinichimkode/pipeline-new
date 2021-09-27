@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('BUILD') {
 			steps {
-			sh 'echo hii'
+			sh 'echo hii how are you'
 				sh 'echo this is my first stage in pipeline job'
 				sh 'ls -lrt'
 			}
